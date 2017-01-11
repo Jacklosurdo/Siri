@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4372DF1E269253009C8D58 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4372DE1E269253009C8D58 /* IntentHandler.swift */; };
+		3F4372E81E269253009C8D58 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4372E71E269253009C8D58 /* IntentsUI.framework */; };
+		3F4372EB1E269253009C8D58 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4372EA1E269253009C8D58 /* IntentViewController.swift */; };
+		3F4372EE1E269253009C8D58 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4372EC1E269253009C8D58 /* MainInterface.storyboard */; };
+		3F4372F21E269253009C8D58 /* JarvisUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F4372E51E269253009C8D58 /* JarvisUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F4372F51E269253009C8D58 /* Jarvis.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F4372DC1E269253009C8D58 /* Jarvis.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3F75479B1E25423F00A126BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75479A1E25423F00A126BA /* AppDelegate.swift */; };
 		3F75479D1E25423F00A126BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75479C1E25423F00A126BA /* ViewController.swift */; };
 		3F7547A01E25423F00A126BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75479E1E25423F00A126BA /* Main.storyboard */; };
@@ -17,6 +23,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F4372F01E269253009C8D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F75478F1E25423F00A126BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4372E41E269253009C8D58;
+			remoteInfo = JarvisUI;
+		};
+		3F4372F31E269253009C8D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F75478F1E25423F00A126BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4372DB1E269253009C8D58;
+			remoteInfo = Jarvis;
+		};
 		3F7547AC1E25424000A126BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F75478F1E25423F00A126BA /* Project object */;
@@ -33,7 +53,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F4372FC1E269253009C8D58 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F4372F21E269253009C8D58 /* JarvisUI.appex in Embed App Extensions */,
+				3F4372F51E269253009C8D58 /* Jarvis.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F4372DC1E269253009C8D58 /* Jarvis.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Jarvis.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4372DE1E269253009C8D58 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		3F4372E01E269253009C8D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4372E51E269253009C8D58 /* JarvisUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JarvisUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4372E71E269253009C8D58 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		3F4372EA1E269253009C8D58 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		3F4372ED1E269253009C8D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3F4372EF1E269253009C8D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7547971E25423F00A126BA /* Siri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F75479A1E25423F00A126BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F75479C1E25423F00A126BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +93,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F4372D91E269253009C8D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4372E21E269253009C8D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4372E81E269253009C8D58 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7547941E25423F00A126BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +132,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4372DD1E269253009C8D58 /* Jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				3F4372DE1E269253009C8D58 /* IntentHandler.swift */,
+				3F4372E01E269253009C8D58 /* Info.plist */,
+			);
+			path = Jarvis;
+			sourceTree = "<group>";
+		};
+		3F4372E61E269253009C8D58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4372E71E269253009C8D58 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4372E91E269253009C8D58 /* JarvisUI */ = {
+			isa = PBXGroup;
+			children = (
+				3F4372EA1E269253009C8D58 /* IntentViewController.swift */,
+				3F4372EC1E269253009C8D58 /* MainInterface.storyboard */,
+				3F4372EF1E269253009C8D58 /* Info.plist */,
+			);
+			path = JarvisUI;
+			sourceTree = "<group>";
+		};
 		3F75478E1E25423F00A126BA = {
 			isa = PBXGroup;
 			children = (
 				3F7547991E25423F00A126BA /* Siri */,
 				3F7547AE1E25424000A126BA /* SiriTests */,
 				3F7547B91E25424000A126BA /* SiriUITests */,
+				3F4372DD1E269253009C8D58 /* Jarvis */,
+				3F4372E91E269253009C8D58 /* JarvisUI */,
+				3F4372E61E269253009C8D58 /* Frameworks */,
 				3F7547981E25423F00A126BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +178,8 @@
 				3F7547971E25423F00A126BA /* Siri.app */,
 				3F7547AB1E25424000A126BA /* SiriTests.xctest */,
 				3F7547B61E25424000A126BA /* SiriUITests.xctest */,
+				3F4372DC1E269253009C8D58 /* Jarvis.appex */,
+				3F4372E51E269253009C8D58 /* JarvisUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +218,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F4372DB1E269253009C8D58 /* Jarvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4372FB1E269253009C8D58 /* Build configuration list for PBXNativeTarget "Jarvis" */;
+			buildPhases = (
+				3F4372D81E269253009C8D58 /* Sources */,
+				3F4372D91E269253009C8D58 /* Frameworks */,
+				3F4372DA1E269253009C8D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jarvis;
+			productName = Jarvis;
+			productReference = 3F4372DC1E269253009C8D58 /* Jarvis.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3F4372E41E269253009C8D58 /* JarvisUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4372FA1E269253009C8D58 /* Build configuration list for PBXNativeTarget "JarvisUI" */;
+			buildPhases = (
+				3F4372E11E269253009C8D58 /* Sources */,
+				3F4372E21E269253009C8D58 /* Frameworks */,
+				3F4372E31E269253009C8D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JarvisUI;
+			productName = JarvisUI;
+			productReference = 3F4372E51E269253009C8D58 /* JarvisUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		3F7547961E25423F00A126BA /* Siri */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F7547BF1E25424000A126BA /* Build configuration list for PBXNativeTarget "Siri" */;
@@ -135,10 +259,13 @@
 				3F7547931E25423F00A126BA /* Sources */,
 				3F7547941E25423F00A126BA /* Frameworks */,
 				3F7547951E25423F00A126BA /* Resources */,
+				3F4372FC1E269253009C8D58 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F4372F11E269253009C8D58 /* PBXTargetDependency */,
+				3F4372F41E269253009C8D58 /* PBXTargetDependency */,
 			);
 			name = Siri;
 			productName = Siri;
@@ -187,10 +314,18 @@
 		3F75478F1E25423F00A126BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Jack;
 				TargetAttributes = {
+					3F4372DB1E269253009C8D58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F4372E41E269253009C8D58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					3F7547961E25423F00A126BA = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -223,11 +358,28 @@
 				3F7547961E25423F00A126BA /* Siri */,
 				3F7547AA1E25424000A126BA /* SiriTests */,
 				3F7547B51E25424000A126BA /* SiriUITests */,
+				3F4372DB1E269253009C8D58 /* Jarvis */,
+				3F4372E41E269253009C8D58 /* JarvisUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F4372DA1E269253009C8D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4372E31E269253009C8D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4372EE1E269253009C8D58 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7547951E25423F00A126BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +407,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F4372D81E269253009C8D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4372DF1E269253009C8D58 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4372E11E269253009C8D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4372EB1E269253009C8D58 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7547931E25423F00A126BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +451,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F4372F11E269253009C8D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4372E41E269253009C8D58 /* JarvisUI */;
+			targetProxy = 3F4372F01E269253009C8D58 /* PBXContainerItemProxy */;
+		};
+		3F4372F41E269253009C8D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4372DB1E269253009C8D58 /* Jarvis */;
+			targetProxy = 3F4372F31E269253009C8D58 /* PBXContainerItemProxy */;
+		};
 		3F7547AD1E25424000A126BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F7547961E25423F00A126BA /* Siri */;
@@ -296,6 +474,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3F4372EC1E269253009C8D58 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4372ED1E269253009C8D58 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		3F75479E1E25423F00A126BA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,6 +501,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F4372F61E269253009C8D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri.Jarvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F4372F71E269253009C8D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri.Jarvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F4372F81E269253009C8D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = JarvisUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri.JarvisUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F4372F91E269253009C8D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = JarvisUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri.JarvisUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		3F7547BD1E25424000A126BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +653,7 @@
 		3F7547C01E25424000A126BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Siri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +666,7 @@
 		3F7547C11E25424000A126BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Siri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -489,6 +733,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F4372FA1E269253009C8D58 /* Build configuration list for PBXNativeTarget "JarvisUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4372F81E269253009C8D58 /* Debug */,
+				3F4372F91E269253009C8D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F4372FB1E269253009C8D58 /* Build configuration list for PBXNativeTarget "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4372F61E269253009C8D58 /* Debug */,
+				3F4372F71E269253009C8D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3F7547921E25423F00A126BA /* Build configuration list for PBXProject "Siri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -505,6 +765,7 @@
 				3F7547C11E25424000A126BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7547C21E25424000A126BA /* Build configuration list for PBXNativeTarget "SiriTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +774,7 @@
 				3F7547C41E25424000A126BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7547C51E25424000A126BA /* Build configuration list for PBXNativeTarget "SiriUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +783,7 @@
 				3F7547C71E25424000A126BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

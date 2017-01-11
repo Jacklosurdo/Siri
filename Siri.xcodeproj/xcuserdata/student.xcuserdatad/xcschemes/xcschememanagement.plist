@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Jarvis.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>JarvisUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Siri.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3F4372DB1E269253009C8D58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F4372E41E269253009C8D58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3F7547961E25423F00A126BA</key>
 		<dict>
 			<key>primary</key>
