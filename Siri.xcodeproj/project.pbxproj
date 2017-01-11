@@ -13,6 +13,7 @@
 		3F4372EE1E269253009C8D58 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4372EC1E269253009C8D58 /* MainInterface.storyboard */; };
 		3F4372F21E269253009C8D58 /* JarvisUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F4372E51E269253009C8D58 /* JarvisUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3F4372F51E269253009C8D58 /* Jarvis.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F4372DC1E269253009C8D58 /* Jarvis.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F4372FE1E2694F1009C8D58 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4372FD1E2694F1009C8D58 /* Handler.swift */; };
 		3F75479B1E25423F00A126BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75479A1E25423F00A126BA /* AppDelegate.swift */; };
 		3F75479D1E25423F00A126BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75479C1E25423F00A126BA /* ViewController.swift */; };
 		3F7547A01E25423F00A126BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75479E1E25423F00A126BA /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		3F4372EA1E269253009C8D58 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		3F4372ED1E269253009C8D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		3F4372EF1E269253009C8D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4372FD1E2694F1009C8D58 /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
 		3F7547971E25423F00A126BA /* Siri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F75479A1E25423F00A126BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F75479C1E25423F00A126BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				3F4372DE1E269253009C8D58 /* IntentHandler.swift */,
+				3F4372FD1E2694F1009C8D58 /* Handler.swift */,
 				3F4372E01E269253009C8D58 /* Info.plist */,
 			);
 			path = Jarvis;
@@ -411,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4372FE1E2694F1009C8D58 /* Handler.swift in Sources */,
 				3F4372DF1E269253009C8D58 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
