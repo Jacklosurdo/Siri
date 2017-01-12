@@ -70,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F3D908A1E27E54D00077F93 /* Siri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Siri.entitlements; sourceTree = "<group>"; };
 		3F4372DC1E269253009C8D58 /* Jarvis.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Jarvis.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4372DE1E269253009C8D58 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		3F4372E01E269253009C8D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 		3F7547991E25423F00A126BA /* Siri */ = {
 			isa = PBXGroup;
 			children = (
+				3F3D908A1E27E54D00077F93 /* Siri.entitlements */,
 				3F75479A1E25423F00A126BA /* AppDelegate.swift */,
 				3F75479C1E25423F00A126BA /* ViewController.swift */,
 				3F75479E1E25423F00A126BA /* Main.storyboard */,
@@ -331,7 +333,13 @@
 					};
 					3F7547961E25423F00A126BA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SS74D43GDA;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					3F7547AA1E25424000A126BA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -659,6 +667,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
+				DEVELOPMENT_TEAM = SS74D43GDA;
 				INFOPLIST_FILE = Siri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri;
@@ -672,6 +682,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Siri/Siri.entitlements;
+				DEVELOPMENT_TEAM = SS74D43GDA;
 				INFOPLIST_FILE = Siri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BHS.Siri;
@@ -744,6 +756,7 @@
 				3F4372F91E269253009C8D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4372FB1E269253009C8D58 /* Build configuration list for PBXNativeTarget "Jarvis" */ = {
 			isa = XCConfigurationList;
@@ -752,6 +765,7 @@
 				3F4372F71E269253009C8D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7547921E25423F00A126BA /* Build configuration list for PBXProject "Siri" */ = {
 			isa = XCConfigurationList;
